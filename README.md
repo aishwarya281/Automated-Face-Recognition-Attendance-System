@@ -97,9 +97,9 @@ pip install -r requirements.txt
 cd Automated-Face-Recognition-Attendance-System/env/AttendanceSystem
 python manage.py runserver
 
+```
+
 ---
-
-
 
 ## 🎯 Future Improvements
 
