@@ -42,7 +42,16 @@ The system captures student faces through a webcam, compares them with the train
 
 ## 📂 Project Structure
 
+```
+Automated-Face-Recognition-Attendance-System
+│
+├── Frontend          # React frontend
+├── Backend           # Node.js backend APIs
+├── env         # ML service for face recognition
+└── README.md
+```
 
+---
 
 ## ⚙️ How It Works
 
@@ -59,31 +68,36 @@ The system captures student faces through a webcam, compares them with the train
 
 ### 1️⃣ Clone the repository
 
-
+```bash
 git clone https://github.com/aishwarya281/Automated-Face-Recognition-Attendance-System.git
-
+```
 
 ### 2️⃣ Install frontend dependencies
 
-
-
+```bash
+cd Frontend
 npm install
 npm run dev
-
+```
 
 ### 3️⃣ Start backend server
 
+```bash
+cd Backend
 npm install
-nodemon index.js
+npm start
+```
 
 ### 4️⃣ Run ML service
 
-
+```bash
 cd Automated-Face-Recognition-Attendance-System/env/Scripts/activate
-cd Automated-Face-Recognition-Attendance-SystemL/env
+cd Automated-Face-Recognition-Attendance-System/env
 pip install -r requirements.txt
 cd Automated-Face-Recognition-Attendance-System/env/AttendanceSystem
 python manage.py runserver
+
+---
 
 
 
@@ -94,7 +108,7 @@ python manage.py runserver
 * Deploy system on cloud
 * Add role-based authentication
 
-
+---
 
 ## 👩‍💻 Author
 
